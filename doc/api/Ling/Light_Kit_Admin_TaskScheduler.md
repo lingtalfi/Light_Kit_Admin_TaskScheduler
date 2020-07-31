@@ -14,7 +14,7 @@ Table of contents
     - [RealGenController::setOnSuccessIframeSignal](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/Base/RealGenController/setOnSuccessIframeSignal.md) &ndash; Sets the iframeSignal to use in case of a valid form.
     - AdminPageController::renderAdminPage &ndash; if she is not connected yet.
     - LightKitAdminController::setRoute &ndash; Sets the matching route to this controller instance.
-    - LightKitAdminController::renderPage &ndash; Renders the given page using the kit service.
+    - LightKitAdminController::renderPage &ndash; Renders the given page using the [kit service](https://github.com/lingtalfi/Light_Kit).
     - LightController::setLight &ndash; Sets the light instance.
 - [LtsTaskScheduleController](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/LtsTaskScheduleController.md) &ndash; The LtsTaskScheduleController class.
     - [LtsTaskScheduleController::renderList](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/LtsTaskScheduleController/renderList.md) &ndash; Renders the task schedule list page.
@@ -24,7 +24,7 @@ Table of contents
     - [RealGenController::setOnSuccessIframeSignal](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/Base/RealGenController/setOnSuccessIframeSignal.md) &ndash; Sets the iframeSignal to use in case of a valid form.
     - AdminPageController::renderAdminPage &ndash; if she is not connected yet.
     - LightKitAdminController::setRoute &ndash; Sets the matching route to this controller instance.
-    - LightKitAdminController::renderPage &ndash; Renders the given page using the kit service.
+    - LightKitAdminController::renderPage &ndash; Renders the given page using the [kit service](https://github.com/lingtalfi/Light_Kit).
     - LightController::setLight &ndash; Sets the light instance.
 - [LightKitAdminTaskSchedulerControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/ControllerHub/Generated/LightKitAdminTaskSchedulerControllerHubHandler.md) &ndash; The LightKitAdminTaskSchedulerControllerHubHandler class.
     - [LightKitAdminTaskSchedulerControllerHubHandler::handle](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/ControllerHub/Generated/LightKitAdminTaskSchedulerControllerHubHandler/handle.md) &ndash; Process the given controllerIdentifier and returns an appropriate http response.

@@ -175,6 +175,10 @@ $realist.methods_collection:
 History Log
 =============
 
+- 1.0.1 -- 2020-07-31
+
+    - forgot to generate the docTools doc
+    
 - 1.0.0 -- 2020-07-31
 
     - initial commit

@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [LtsTaskScheduleController::renderForm](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/LtsTaskScheduleController/renderForm.md)() : string | Ling\Light\Http\HttpResponseInterface
+public [LtsTaskScheduleController::renderForm](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/LtsTaskScheduleController/renderForm.md)() : string | [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md)
 
 
 
@@ -35,7 +35,7 @@ This method has no parameters.
 Return values
 ================
 
-Returns string | Ling\Light\Http\HttpResponseInterface.
+Returns string | [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md).
 
 
 Exceptions thrown

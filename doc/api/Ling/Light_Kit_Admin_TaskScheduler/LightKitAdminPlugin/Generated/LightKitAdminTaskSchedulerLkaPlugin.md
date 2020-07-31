@@ -22,7 +22,7 @@ Class synopsis
 ==============
 
 
-class <span class="pl-k">LightKitAdminTaskSchedulerLkaPlugin</span> extends BaseLightKitAdminPlugin implements LightKitAdminPluginInterface {
+class <span class="pl-k">LightKitAdminTaskSchedulerLkaPlugin</span> extends [BaseLightKitAdminPlugin](https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/LightKitAdminPlugin/BaseLightKitAdminPlugin.md) implements [LightKitAdminPluginInterface](https://github.com/lingtalfi/Light_Kit_Admin/blob/master/doc/api/Ling/Light_Kit_Admin/LightKitAdminPlugin/LightKitAdminPluginInterface.md) {
 
 - Inherited properties
     - protected string [BaseLightKitAdminPlugin::$optionsFile](#property-optionsFile) ;

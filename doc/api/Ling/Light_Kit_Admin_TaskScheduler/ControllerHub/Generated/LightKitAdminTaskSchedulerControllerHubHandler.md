@@ -22,18 +22,18 @@ Class synopsis
 ==============
 
 
-class <span class="pl-k">LightKitAdminTaskSchedulerControllerHubHandler</span> extends LightBaseControllerHubHandler implements LightControllerHubHandlerInterface {
+class <span class="pl-k">LightKitAdminTaskSchedulerControllerHubHandler</span> extends [LightBaseControllerHubHandler](https://github.com/lingtalfi/Light_ControllerHub/blob/master/doc/api/Ling/Light_ControllerHub/ControllerHubHandler/LightBaseControllerHubHandler.md) implements [LightControllerHubHandlerInterface](https://github.com/lingtalfi/Light_ControllerHub/blob/master/doc/api/Ling/Light_ControllerHub/ControllerHubHandler/LightControllerHubHandlerInterface.md) {
 
 - Inherited properties
-    - protected Ling\Light\ServiceContainer\LightServiceContainerInterface [LightBaseControllerHubHandler::$container](#property-container) ;
+    - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [LightBaseControllerHubHandler::$container](#property-container) ;
 
 - Methods
-    - public [handle](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/ControllerHub/Generated/LightKitAdminTaskSchedulerControllerHubHandler/handle.md)(string $controllerIdentifier, Ling\Light\Http\HttpRequestInterface $request) : Ling\Light\Http\HttpResponseInterface
+    - public [handle](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/ControllerHub/Generated/LightKitAdminTaskSchedulerControllerHubHandler/handle.md)(string $controllerIdentifier, Ling\Light\Http\HttpRequestInterface $request) : [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md)
 
 - Inherited methods
     - public LightBaseControllerHubHandler::__construct() : void
-    - public LightBaseControllerHubHandler::setContainer(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
-    - protected LightBaseControllerHubHandler::doHandle(string $controllerDir, string $controllerIdentifier, Ling\Light\Http\HttpRequestInterface $request) : Ling\Light\Http\HttpResponseInterface
+    - public LightBaseControllerHubHandler::setContainer([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
+    - protected LightBaseControllerHubHandler::doHandle(string $controllerDir, string $controllerIdentifier, Ling\Light\Http\HttpRequestInterface $request) : [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md)
 
 }
 

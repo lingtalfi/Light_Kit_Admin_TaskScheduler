@@ -16,7 +16,7 @@ Description
 ================
 
 
-public [LightKitAdminTaskSchedulerControllerHubHandler::handle](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/ControllerHub/Generated/LightKitAdminTaskSchedulerControllerHubHandler/handle.md)(string $controllerIdentifier, Ling\Light\Http\HttpRequestInterface $request) : Ling\Light\Http\HttpResponseInterface
+public [LightKitAdminTaskSchedulerControllerHubHandler::handle](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/ControllerHub/Generated/LightKitAdminTaskSchedulerControllerHubHandler/handle.md)(string $controllerIdentifier, Ling\Light\Http\HttpRequestInterface $request) : [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md)
 
 
 
@@ -42,7 +42,7 @@ Parameters
 Return values
 ================
 
-Returns Ling\Light\Http\HttpResponseInterface.
+Returns [HttpResponseInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/Http/HttpResponseInterface.md).
 
 
 

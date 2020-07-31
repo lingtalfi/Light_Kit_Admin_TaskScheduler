@@ -22,15 +22,15 @@ Class synopsis
 ==============
 
 
-class <span class="pl-k">LightKitAdminTaskSchedulerService</span> extends LightLingStandardServiceKitAdminPlugin implements PluginInstallerInterface {
+class <span class="pl-k">LightKitAdminTaskSchedulerService</span> extends [LightLingStandardServiceKitAdminPlugin](https://github.com/lingtalfi/Light_LingStandardService/blob/master/doc/api/Ling/Light_LingStandardService/Service/LightLingStandardServiceKitAdminPlugin.md) implements [PluginInstallerInterface](https://github.com/lingtalfi/Light_PluginInstaller/blob/master/doc/api/Ling/Light_PluginInstaller/PluginInstaller/PluginInstallerInterface.md) {
 
 - Inherited properties
-    - protected Ling\Light\ServiceContainer\LightServiceContainerInterface [LightLingStandardServiceKitAdminPlugin::$container](#property-container) ;
+    - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [LightLingStandardServiceKitAdminPlugin::$container](#property-container) ;
     - protected array [LightLingStandardServiceKitAdminPlugin::$options](#property-options) ;
 
 - Inherited methods
     - public LightLingStandardServiceKitAdminPlugin::__construct() : void
-    - public LightLingStandardServiceKitAdminPlugin::setContainer(Ling\Light\ServiceContainer\LightServiceContainerInterface $container) : void
+    - public LightLingStandardServiceKitAdminPlugin::setContainer([Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) $container) : void
     - public LightLingStandardServiceKitAdminPlugin::setOptions(array $options) : void
     - public LightLingStandardServiceKitAdminPlugin::install() : void
     - public LightLingStandardServiceKitAdminPlugin::isInstalled() : bool
