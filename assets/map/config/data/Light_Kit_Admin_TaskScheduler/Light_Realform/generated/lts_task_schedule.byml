@@ -1,0 +1,66 @@
+title: Task schedule form
+form_handler: 
+    id: realgen-lts_task_schedule
+    fields: 
+        name: 
+            label: Name
+            type: string
+            validators: 
+                required: []
+            
+        
+        action: 
+            label: Action
+            type: string
+            validators: 
+                required: []
+            
+        
+        param1: 
+            label: Param1
+            type: string
+            validators: 
+                required: []
+            
+        
+        extra_params: 
+            label: Extra params
+            type: string
+            validators: 
+                required: []
+            
+        
+        scheduled_date: 
+            label: Scheduled date
+            type: datetime
+            validators: 
+                required: []
+            
+        
+        execution_end_date: 
+            label: Execution end date
+            type: datetime
+            validators: 
+                required: []
+            
+        
+        error: 
+            label: Error
+            type: number
+            validators: 
+                required: []
+            
+        
+    
+    row_restriction: 
+        - read
+        - update
+    
+
+on_success_handler: 
+    type: database
+    params: 
+        table: lts_task_schedule
+        pluginName: Light_Kit_Admin_TaskScheduler
+        useRowRestriction: true
+    

@@ -1,0 +1,7 @@
+Light_TaskScheduler.admin:
+    - tables.lts_task_schedule.create
+    - tables.lts_task_schedule.read
+    - tables.lts_task_schedule.update
+    - tables.lts_task_schedule.delete
+
+
