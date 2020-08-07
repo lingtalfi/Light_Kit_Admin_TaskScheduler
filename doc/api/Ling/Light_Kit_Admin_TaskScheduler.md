@@ -1,6 +1,6 @@
 Ling/Light_Kit_Admin_TaskScheduler
 ================
-2020-07-31 --> 2020-07-31
+2020-07-31 --> 2020-08-07
 
 
 
@@ -42,6 +42,7 @@ Table of contents
     - LightLingStandardServiceKitAdminPlugin::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
     - LightLingStandardServiceKitAdminPlugin::uninstall &ndash; Uninstalls the plugin.
     - LightLingStandardServiceKitAdminPlugin::getDependencies &ndash; Returns the array of dependencies.
+    - LightLingStandardServiceKitAdminPlugin::registerByRequestId &ndash; Registers the plugin dynamically to [the realist plugin](https://github.com/lingtalfi/Light_Realist/).
 
 
 Dependencies

@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31
+2020-07-31 -> 2020-08-07
 
 
 
@@ -136,36 +136,6 @@ $realform.methods_collection:
                     setConfDir:
                         dir: ${app_dir}/config/data/Light_Kit_Admin_TaskScheduler/Light_Realform
 
-$realist.methods_collection:
-    -
-        method: registerListRenderer
-        args:
-            identifier: Light_Kit_Admin_TaskScheduler
-            renderer:
-                instance: Ling\Light_Kit_Admin\Realist\Rendering\LightKitAdminRealistListRenderer
-    -
-        method: registerRealistRowsRenderer
-        args:
-            identifier: Light_Kit_Admin_TaskScheduler
-            renderer:
-                instance: Ling\Light_Kit_Admin\Realist\Rendering\LightKitAdminRealistRowsRenderer
-    -
-        method: registerActionHandler
-        args:
-            renderer:
-                instance: Ling\Light_Kit_Admin\Realist\ActionHandler\LightKitAdminRealistActionHandler
-    -
-        method: registerListActionHandler
-        args:
-            plugin: Light_Kit_Admin_TaskScheduler
-            renderer:
-                instance: Ling\Light_Kit_Admin\Realist\ListActionHandler\LightKitAdminListActionHandler
-    -
-        method: registerListGeneralActionHandler
-        args:
-            plugin: Light_Kit_Admin_TaskScheduler
-            renderer:
-                instance: Ling\Light_Kit_Admin\Realist\ListGeneralActionHandler\LightKitAdminListGeneralActionHandler
 
 
 ```
@@ -175,6 +145,10 @@ $realist.methods_collection:
 History Log
 =============
 
+- 1.1.0 -- 2020-08-07
+
+    - update service config, now use late registration with realist
+    
 - 1.0.1 -- 2020-07-31
 
     - forgot to generate the docTools doc

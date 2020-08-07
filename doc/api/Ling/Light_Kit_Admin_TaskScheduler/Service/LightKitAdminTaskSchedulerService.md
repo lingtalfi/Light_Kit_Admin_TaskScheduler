@@ -4,7 +4,7 @@
 
 The LightKitAdminTaskSchedulerService class
 ================
-2020-07-31 --> 2020-07-31
+2020-07-31 --> 2020-08-07
 
 
 
@@ -22,7 +22,7 @@ Class synopsis
 ==============
 
 
-class <span class="pl-k">LightKitAdminTaskSchedulerService</span> extends [LightLingStandardServiceKitAdminPlugin](https://github.com/lingtalfi/Light_LingStandardService/blob/master/doc/api/Ling/Light_LingStandardService/Service/LightLingStandardServiceKitAdminPlugin.md) implements [PluginInstallerInterface](https://github.com/lingtalfi/Light_PluginInstaller/blob/master/doc/api/Ling/Light_PluginInstaller/PluginInstaller/PluginInstallerInterface.md) {
+class <span class="pl-k">LightKitAdminTaskSchedulerService</span> extends [LightLingStandardServiceKitAdminPlugin](https://github.com/lingtalfi/Light_LingStandardService/blob/master/doc/api/Ling/Light_LingStandardService/Service/LightLingStandardServiceKitAdminPlugin.md) implements [LightRealistCustomServiceInterface](https://github.com/lingtalfi/Light_Realist/blob/master/doc/api/Ling/Light_Realist/Service/LightRealistCustomServiceInterface.md), [PluginInstallerInterface](https://github.com/lingtalfi/Light_PluginInstaller/blob/master/doc/api/Ling/Light_PluginInstaller/PluginInstaller/PluginInstallerInterface.md) {
 
 - Inherited properties
     - protected [Ling\Light\ServiceContainer\LightServiceContainerInterface](https://github.com/lingtalfi/Light/blob/master/doc/api/Ling/Light/ServiceContainer/LightServiceContainerInterface.md) [LightLingStandardServiceKitAdminPlugin::$container](#property-container) ;
@@ -36,6 +36,7 @@ class <span class="pl-k">LightKitAdminTaskSchedulerService</span> extends [Light
     - public LightLingStandardServiceKitAdminPlugin::isInstalled() : bool
     - public LightLingStandardServiceKitAdminPlugin::uninstall() : void
     - public LightLingStandardServiceKitAdminPlugin::getDependencies() : array
+    - public LightLingStandardServiceKitAdminPlugin::registerByRequestId(string $requestId) : mixed | void
     - protected LightLingStandardServiceKitAdminPlugin::error(string $msg) : void
     - private LightLingStandardServiceKitAdminPlugin::prepareTheNames() : void
 
@@ -56,6 +57,7 @@ Methods
 - LightLingStandardServiceKitAdminPlugin::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
 - LightLingStandardServiceKitAdminPlugin::uninstall &ndash; Uninstalls the plugin.
 - LightLingStandardServiceKitAdminPlugin::getDependencies &ndash; Returns the array of dependencies.
+- LightLingStandardServiceKitAdminPlugin::registerByRequestId &ndash; Registers the plugin dynamically to [the realist plugin](https://github.com/lingtalfi/Light_Realist/).
 - LightLingStandardServiceKitAdminPlugin::error &ndash; Throws an exception.
 - LightLingStandardServiceKitAdminPlugin::prepareTheNames &ndash; prepareTheNames names used by this class.
 
