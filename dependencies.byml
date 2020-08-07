@@ -8,7 +8,6 @@ dependencies:
         - Light_Kit
         - Light_UserRowRestriction
         - Light_ControllerHub
-        - Light_LingStandardService
     
 
 post_install: 

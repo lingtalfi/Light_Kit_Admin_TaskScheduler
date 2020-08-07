@@ -43,6 +43,9 @@ class LtsTaskScheduleController extends RealGenController
 
         $table = "lts_task_schedule";
         $identifier = "Light_Kit_Admin_TaskScheduler.generated/lts_task_schedule";
+
+        $this->lateRealFormRegistration($identifier);
+
         $parentLayout = "Light_Kit_Admin/kit/zeroadmin/dev/mainlayout_base";
         $vars = [
             "title" => "Task schedule form",

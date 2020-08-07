@@ -125,19 +125,6 @@ $plugin_installer.methods_collection:
 
 
 
-$realform.methods_collection:
-    -
-        method: registerFormHandler
-        args:
-            plugin: Light_Kit_Admin_TaskScheduler
-            handler:
-                instance: Ling\Light_Kit_Admin\Realform\Handler\LightKitAdminRealformHandler
-                methods:
-                    setConfDir:
-                        dir: ${app_dir}/config/data/Light_Kit_Admin_TaskScheduler/Light_Realform
-
-
-
 ```
 
 
@@ -145,6 +132,10 @@ $realform.methods_collection:
 History Log
 =============
 
+- 1.2.0 -- 2020-08-07
+
+    - update service config, now use late registration with realform
+    
 - 1.1.0 -- 2020-08-07
 
     - update service config, now use late registration with realist

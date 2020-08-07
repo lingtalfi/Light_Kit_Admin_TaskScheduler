@@ -35,14 +35,15 @@ Table of contents
     - BaseLightKitAdminPlugin::getPluginOptions &ndash; Returns the options of this kit admin plugin.
     - BaseLightKitAdminPlugin::setOptionsFile &ndash; Sets the file.
 - [LightKitAdminTaskSchedulerService](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Service/LightKitAdminTaskSchedulerService.md) &ndash; The LightKitAdminTaskSchedulerService class.
-    - LightLingStandardServiceKitAdminPlugin::__construct &ndash; Builds the LightLingStandardService01 instance.
-    - LightLingStandardServiceKitAdminPlugin::setContainer &ndash; Sets the container.
-    - LightLingStandardServiceKitAdminPlugin::setOptions &ndash; Sets the options.
-    - LightLingStandardServiceKitAdminPlugin::install &ndash; Installs the plugin in the light application.
-    - LightLingStandardServiceKitAdminPlugin::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
-    - LightLingStandardServiceKitAdminPlugin::uninstall &ndash; Uninstalls the plugin.
-    - LightLingStandardServiceKitAdminPlugin::getDependencies &ndash; Returns the array of dependencies.
-    - LightLingStandardServiceKitAdminPlugin::registerByRequestId &ndash; Registers the plugin dynamically to [the realist plugin](https://github.com/lingtalfi/Light_Realist/).
+    - LightKitAdminStandardServicePlugin::__construct &ndash; Builds the LightLingStandardService01 instance.
+    - LightKitAdminStandardServicePlugin::setContainer &ndash; Sets the container.
+    - LightKitAdminStandardServicePlugin::setOptions &ndash; Sets the options.
+    - LightKitAdminStandardServicePlugin::install &ndash; Installs the plugin in the light application.
+    - LightKitAdminStandardServicePlugin::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
+    - LightKitAdminStandardServicePlugin::uninstall &ndash; Uninstalls the plugin.
+    - LightKitAdminStandardServicePlugin::getDependencies &ndash; Returns the array of dependencies.
+    - LightKitAdminStandardServicePlugin::registerRealistByRequestId &ndash; Registers the plugin to the realist service.
+    - LightKitAdminStandardServicePlugin::registerRealformByIdentifier &ndash; Registers the plugin to the realform service.
 
 
 Dependencies
@@ -55,6 +56,5 @@ Dependencies
 - [Light_Kit](https://github.com/lingtalfi/Light_Kit)
 - [Light_UserRowRestriction](https://github.com/lingtalfi/Light_UserRowRestriction)
 - [Light_ControllerHub](https://github.com/lingtalfi/Light_ControllerHub)
-- [Light_LingStandardService](https://github.com/lingtalfi/Light_LingStandardService)
 
 
