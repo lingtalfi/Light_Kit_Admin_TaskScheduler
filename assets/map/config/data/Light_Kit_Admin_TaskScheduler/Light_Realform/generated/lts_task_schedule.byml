@@ -30,23 +30,51 @@ form_handler:
                 required: []
             
         
-        scheduled_date: 
-            label: Scheduled date
-            type: datetime
-            validators: 
-                required: []
-            
-        
-        execution_end_date: 
-            label: Execution end date
-            type: datetime
-            validators: 
-                required: []
-            
-        
         error: 
             label: Error
             type: number
+            validators: 
+                required: []
+            
+        
+        year: 
+            label: Year
+            type: number
+            validators: 
+                required: []
+            
+        
+        month: 
+            label: Month
+            type: number
+            validators: 
+                required: []
+            
+        
+        day: 
+            label: Day
+            type: number
+            validators: 
+                required: []
+            
+        
+        hour: 
+            label: Hour
+            type: number
+            validators: 
+                required: []
+            
+        
+        minute: 
+            label: Minute
+            type: number
+            validators: 
+                required: []
+            
+        
+        last_execution_end_date: 
+            label: Last execution end date
+            type: datetime
             validators: 
                 required: []
             

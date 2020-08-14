@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31 -> 2020-08-07
+2020-07-31 -> 2020-08-14
 
 
 
@@ -32,7 +32,26 @@ Summary
 ===========
 - [Light_Kit_Admin_TaskScheduler api](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler.md) (generated with [DocTools](https://github.com/lingtalfi/DocTools))
 - [Conception notes](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/pages/conception-notes.md)
+- [Our gui](#our-gui)
 - [Services](#services)
+
+
+
+
+
+Our gui
+========
+2020-08-14
+
+
+
+We provide an admin list/form.
+
+
+![lka-task-scheduler-admin](https://lingtalfi.com/img/universe/Light_Kit_Admin_TaskScheduler/lka-task-schedule-admin.png)
+
+
+
 
 
 
@@ -132,6 +151,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 1.3.0 -- 2020-08-14
+
+    - update api to adapt new Light_TaskScheduler api
+    
 - 1.2.0 -- 2020-08-07
 
     - update service config, now use late registration with realform

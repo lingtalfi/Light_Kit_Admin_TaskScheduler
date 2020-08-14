@@ -9,9 +9,13 @@ default:
         - ts.action
         - ts.param1
         - ts.extra_params
-        - ts.scheduled_date
-        - ts.execution_end_date
         - ts.error
+        - ts.year
+        - ts.month
+        - ts.day
+        - ts.hour
+        - ts.minute
+        - ts.last_execution_end_date
     
     order: 
         col_order: $column $direction
@@ -23,9 +27,13 @@ default:
             ts.action like :%expression% or
             ts.param1 like :%expression% or
             ts.extra_params like :%expression% or
-            ts.scheduled_date like :%expression% or
-            ts.execution_end_date like :%expression% or
-            ts.error like :%expression%
+            ts.error like :%expression% or
+            ts.year like :%expression% or
+            ts.month like :%expression% or
+            ts.day like :%expression% or
+            ts.hour like :%expression% or
+            ts.minute like :%expression% or
+            ts.last_execution_end_date like :%expression%
         >
         generic_filter: $column $operator :operator_value
         generic_sub_filter: $column like :%operator_value%
@@ -168,9 +176,13 @@ default:
                 action: string
                 param1: string
                 extra_params: string
-                scheduled_date: datetime
-                execution_end_date: datetime
                 error: number
+                year: number
+                month: number
+                day: number
+                hour: number
+                minute: number
+                last_execution_end_date: datetime
                 _action: _action
             
         
@@ -180,9 +192,13 @@ default:
             action: Action
             param1: Param1
             extra_params: Extra params
-            scheduled_date: Scheduled date
-            execution_end_date: Execution end date
             error: Error
+            year: Year
+            month: Month
+            day: Day
+            hour: Hour
+            minute: Minute
+            last_execution_end_date: Last execution end date
             _action: Actions
         
         hidden_columns: []
