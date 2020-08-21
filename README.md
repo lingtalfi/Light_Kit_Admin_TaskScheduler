@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31 -> 2020-08-14
+2020-07-31 -> 2020-08-21
 
 
 
@@ -151,6 +151,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 1.4.0 -- 2020-08-21
+
+    - update api to work with micro-permission3
+    
 - 1.3.0 -- 2020-08-14
 
     - update api to adapt new Light_TaskScheduler api
