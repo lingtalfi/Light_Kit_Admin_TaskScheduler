@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31 -> 2020-08-21
+2020-07-31 -> 2020-08-28
 
 
 
@@ -109,13 +109,6 @@ $controller_hub.methods_collection:
                     setContainer:
                         container: @container()
 
-$crud.methods_collection:
-    -
-        method: registerHandler
-        args:
-            pluginId: Light_Kit_Admin_TaskScheduler
-            handler:
-                instance: Ling\Light_Kit_Admin\Crud\CrudRequestHandler\LightKitAdminCrudRequestHandler
 
 $kit_admin.methods_collection:
     -
@@ -144,6 +137,8 @@ $plugin_installer.methods_collection:
 
 
 
+
+
 ```
 
 
@@ -151,6 +146,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 1.5.0 -- 2020-08-28
+
+    - acknowledge new Light_Crud api  
+    
 - 1.4.0 -- 2020-08-21
 
     - update api to work with micro-permission3

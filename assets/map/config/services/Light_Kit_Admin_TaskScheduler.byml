@@ -42,13 +42,6 @@ $controller_hub.methods_collection:
                     setContainer:
                         container: @container()
 
-$crud.methods_collection:
-    -
-        method: registerHandler
-        args:
-            pluginId: Light_Kit_Admin_TaskScheduler
-            handler:
-                instance: Ling\Light_Kit_Admin\Crud\CrudRequestHandler\LightKitAdminCrudRequestHandler
 
 $kit_admin.methods_collection:
     -
