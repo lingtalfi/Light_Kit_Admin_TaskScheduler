@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31 -> 2020-08-28
+2020-07-31 -> 2020-11-27
 
 
 
@@ -146,6 +146,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 1.5.1 -- 2020-11-27
+
+    - update to accommodate latest Light_Kit api  
+    
 - 1.5.0 -- 2020-08-28
 
     - acknowledge new Light_Crud api  

@@ -17,17 +17,6 @@ $bmenu.methods_collection:
             menu_type: admin_main_menu
             file: ${app_dir}/config/data/Light_Kit_Admin_TaskScheduler/bmenu/generated/kit_admin_task_scheduler.admin_mainmenu_1.byml
 
-$chloroform_extension.methods_collection:
-    -
-        method: registerTableListConfigurationHandler
-        args:
-            plugin: Light_Kit_Admin_TaskScheduler
-            handler:
-                instance: Ling\Light_Kit_Admin\ChloroformExtension\LightKitAdminTableListConfigurationHandler
-                methods:
-                    setConfigurationFile:
-                        files:
-                            - ${app_dir}/config/data/Light_Kit_Admin_TaskScheduler/Light_ChloroformExtension/generated/kit_admin_task_scheduler.table_list.byml
 
 
 
