@@ -146,6 +146,10 @@ $plugin_installer.methods_collection:
 History Log
 =============
 
+- 1.5.2 -- 2020-11-27
+
+    - update api with new generated breeze  
+    
 - 1.5.1 -- 2020-11-27
 
     - update to accommodate latest Light_Kit api  

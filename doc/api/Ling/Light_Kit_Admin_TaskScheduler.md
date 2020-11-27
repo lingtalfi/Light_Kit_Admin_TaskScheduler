@@ -19,9 +19,9 @@ Table of contents
 - [LtsTaskScheduleController](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/LtsTaskScheduleController.md) &ndash; The LtsTaskScheduleController class.
     - [LtsTaskScheduleController::renderList](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/LtsTaskScheduleController/renderList.md) &ndash; Renders the task schedule list page.
     - [LtsTaskScheduleController::renderForm](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/LtsTaskScheduleController/renderForm.md) &ndash; Renders the task schedule form page.
-    - [RealGenController::__construct](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/Base/RealGenController/__construct.md) &ndash; Builds the instance.
-    - [RealGenController::render](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/Base/RealGenController/render.md) &ndash; Renders a page to interact with a table data.
-    - [RealGenController::setOnSuccessIframeSignal](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/Base/RealGenController/setOnSuccessIframeSignal.md) &ndash; Sets the iframeSignal to use in case of a valid form.
+    - RealAdminPageController::__construct &ndash; Builds the instance.
+    - RealAdminPageController::render &ndash; Renders a page to interact with a table data.
+    - RealAdminPageController::setOnSuccessIframeSignal &ndash; Sets the iframeSignal to use in case of a valid form.
     - AdminPageController::renderAdminPage &ndash; if she is not connected yet.
     - LightKitAdminController::setRoute &ndash; Sets the matching route to this controller instance.
     - LightKitAdminController::renderPage &ndash; Renders the given page using the [kit service](https://github.com/lingtalfi/Light_Kit).
@@ -54,7 +54,6 @@ Dependencies
 - [Light_Kit_Admin](https://github.com/lingtalfi/Light_Kit_Admin)
 - [Light_Realform](https://github.com/lingtalfi/Light_Realform)
 - [Light_Kit](https://github.com/lingtalfi/Light_Kit)
-- [Light_UserRowRestriction](https://github.com/lingtalfi/Light_UserRowRestriction)
 - [Light_ControllerHub](https://github.com/lingtalfi/Light_ControllerHub)
 
 
