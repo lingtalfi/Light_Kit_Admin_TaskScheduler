@@ -6,7 +6,7 @@ rendering:
     related_links: 
         - 
             text: "See the list of \"Task schedule\" items"
-            url: ::(@reverse_router->getUrl(lch_route-hub, {plugin: Light_Kit_Admin_TaskScheduler, controller: Generated/LtsTaskScheduleController}))::
+            url: ::(@reverse_router->getUrl(lch_route-hub, {plugin: Ling/Light_Kit_Admin_TaskScheduler, controller: Generated/LtsTaskScheduleController}))::
             icon: fas fa-plus-circle
         
     
@@ -30,6 +30,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         action: 
             label: Action
@@ -37,6 +38,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         param1: 
             label: Param1
@@ -44,6 +46,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: true
         
         extra_params: 
             label: Extra params
@@ -51,6 +54,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: true
         
         error: 
             label: Error
@@ -58,6 +62,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         year: 
             label: Year
@@ -65,6 +70,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         month: 
             label: Month
@@ -72,6 +78,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         day: 
             label: Day
@@ -79,6 +86,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         hour: 
             label: Hour
@@ -86,6 +94,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         minute: 
             label: Minute
@@ -93,6 +102,7 @@ chloroform:
             validators: 
                 required: []
             
+            nullable: false
         
         last_execution_end_date: 
             label: Last execution end date
@@ -100,7 +110,7 @@ chloroform:
             validators: 
                 requiredDatetime: []
             
-            nullable: false
+            nullable: true
         
     
 

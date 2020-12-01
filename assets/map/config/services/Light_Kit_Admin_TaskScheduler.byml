@@ -24,20 +24,7 @@ $bmenu.methods_collection:
             file: ${app_dir}/config/data/Light_Kit_Admin_TaskScheduler/bmenu/generated/kit_admin_task_scheduler.admin_mainmenu_1.byml
             path: lka-admin
         
-    
 
-$controller_hub.methods_collection: 
-    - 
-        method: registerHandler
-        args: 
-            plugin: Light_Kit_Admin_TaskScheduler
-            handler: 
-                instance: Ling\Light_Kit_Admin_TaskScheduler\ControllerHub\Generated\LightKitAdminTaskSchedulerControllerHubHandler
-                methods: 
-                    setContainer: 
-                        container: @container()
-                    
-                
             
         
     

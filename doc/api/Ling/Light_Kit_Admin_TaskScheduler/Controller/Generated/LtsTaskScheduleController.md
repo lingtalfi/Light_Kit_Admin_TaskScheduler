@@ -4,7 +4,7 @@
 
 The LtsTaskScheduleController class
 ================
-2020-07-31 --> 2020-11-27
+2020-07-31 --> 2020-12-01
 
 
 
@@ -101,4 +101,4 @@ See the source code of [Ling\Light_Kit_Admin_TaskScheduler\Controller\Generated\
 
 SeeAlso
 ==============
-Previous class: [RealGenController](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/Base/RealGenController.md)<br>Next class: [LightKitAdminTaskSchedulerControllerHubHandler](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/ControllerHub/Generated/LightKitAdminTaskSchedulerControllerHubHandler.md)<br>
+Previous class: [RealGenController](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Controller/Generated/Base/RealGenController.md)<br>Next class: [LightKitAdminTaskSchedulerLkaPlugin](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/LightKitAdminPlugin/Generated/LightKitAdminTaskSchedulerLkaPlugin.md)<br>

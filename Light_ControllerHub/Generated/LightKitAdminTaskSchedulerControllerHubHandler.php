@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ling\Light_Kit_Admin_TaskScheduler\ControllerHub\Generated;
+namespace Ling\Light_Kit_Admin_TaskScheduler\Light_ControllerHub\Generated;
 
 
 use Ling\Light\Http\HttpRequestInterface;
