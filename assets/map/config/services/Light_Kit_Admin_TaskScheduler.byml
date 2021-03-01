@@ -9,14 +9,7 @@ kit_admin_task_scheduler:
 # --------------------------------------
 # hooks
 # --------------------------------------
-$bmenu.methods_collection: 
-    - 
-        method: addDefaultItemByFile
-        args: 
-            menu_type: admin_main_menu
-            file: ${app_dir}/config/data/Light_Kit_Admin_TaskScheduler/bmenu/generated/kit_admin_task_scheduler.admin_mainmenu_1.byml
-        
-    
+$bmenu.methods_collection:
     - 
         method: addDirectItemsByFileAndParentPath
         args: 

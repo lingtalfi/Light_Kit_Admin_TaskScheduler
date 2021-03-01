@@ -1,6 +1,6 @@
 Ling/Light_Kit_Admin_TaskScheduler
 ================
-2020-07-31 --> 2021-01-29
+2020-07-31 --> 2021-03-01
 
 
 
@@ -40,8 +40,8 @@ Table of contents
     - LightKitAdminBasePortPluginInstallerWithDatabase::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
     - LightKitAdminBasePortPluginInstallerWithDatabase::uninstall &ndash; Uninstalls the plugin.
     - LightKitAdminBasePortPluginInstallerWithDatabase::getDependencies &ndash; Returns the array of dependencies.
-    - LightBasePluginInstaller::setContainer &ndash; Sets the container.
-    - LightBasePluginInstaller::getTableScope &ndash; Returns the [table scope](https://github.com/lingtalfi/TheBar/blob/master/discussions/table-scope.md) for this planet.
+    - LightUserDatabaseBasePluginInstaller::setContainer &ndash; Sets the container.
+    - LightUserDatabaseBasePluginInstaller::getTableScope &ndash; Returns the [table scope](https://github.com/lingtalfi/TheBar/blob/master/discussions/table-scope.md) for this planet.
 - [LightKitAdminTaskSchedulerService](https://github.com/lingtalfi/Light_Kit_Admin_TaskScheduler/blob/master/doc/api/Ling/Light_Kit_Admin_TaskScheduler/Service/LightKitAdminTaskSchedulerService.md) &ndash; The LightKitAdminTaskSchedulerService class.
     - LightKitAdminStandardServicePlugin::__construct &ndash; Builds the LightLingStandardService01 instance.
     - LightKitAdminStandardServicePlugin::setContainer &ndash; Sets the container.
@@ -53,9 +53,9 @@ Dependencies
 - [Bat](https://github.com/lingtalfi/Bat)
 - [Chloroform](https://github.com/lingtalfi/Chloroform)
 - [Light](https://github.com/lingtalfi/Light)
+- [Light_ControllerHub](https://github.com/lingtalfi/Light_ControllerHub)
+- [Light_Kit](https://github.com/lingtalfi/Light_Kit)
 - [Light_Kit_Admin](https://github.com/lingtalfi/Light_Kit_Admin)
 - [Light_Realform](https://github.com/lingtalfi/Light_Realform)
-- [Light_Kit](https://github.com/lingtalfi/Light_Kit)
-- [Light_ControllerHub](https://github.com/lingtalfi/Light_ControllerHub)
 
 
