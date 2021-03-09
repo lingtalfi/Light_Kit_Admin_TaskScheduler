@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31 -> 2021-03-05
+2020-07-31 -> 2021-03-09
 
 
 
@@ -127,6 +127,10 @@ History Log
 =============
 
 
+- 1.5.9 -- 2021-03-09
+
+    - update planet to adapt Ling.Light_Kit_Admin:0.12.25
+  
 - 1.5.8 -- 2021-03-05
 
     - update README.md, add install alternative
