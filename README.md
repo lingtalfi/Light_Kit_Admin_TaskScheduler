@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31 -> 2021-03-09
+2020-07-31 -> 2021-03-15
 
 
 
@@ -86,7 +86,7 @@ $bmenu.methods_collection:
         method: addDirectItemsByFileAndParentPath
         args: 
             menu_type: admin_main_menu
-            file: ${app_dir}/config/data/Light_Kit_Admin_TaskScheduler/bmenu/generated/kit_admin_task_scheduler.admin_mainmenu_1.byml
+            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_TaskScheduler/Ling.Light_BMenu/generated/kit_admin_task_scheduler.admin_mainmenu_1.byml
             path: lka-admin
         
 
@@ -103,7 +103,7 @@ $kit_admin.methods_collection:
                 instance: Ling\Light_Kit_Admin_TaskScheduler\LightKitAdminPlugin\Generated\LightKitAdminTaskSchedulerLkaPlugin
                 methods: 
                     setOptionsFile: 
-                        file: ${app_dir}/config/data/Light_Kit_Admin_TaskScheduler/Light_Kit_Admin/lka-options.generated.byml
+                        file: ${app_dir}/config/data/Ling.Light_Kit_Admin_TaskScheduler/Light_Kit_Admin/lka-options.generated.byml
                     
                 
             
@@ -114,7 +114,7 @@ $micro_permission.methods_collection:
     - 
         method: registerMicroPermissionsByProfile
         args: 
-            file: ${app_dir}/config/data/Light_Kit_Admin_TaskScheduler/Light_MicroPermission/kit_admin_task_scheduler.profile.generated.byml
+            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_TaskScheduler/Ling.Light_MicroPermission/kit_admin_task_scheduler.profile.generated.byml
         
     
 
@@ -126,6 +126,10 @@ $micro_permission.methods_collection:
 History Log
 =============
 
+
+- 1.5.10 -- 2021-03-15
+
+    - update planet to adapt Ling.Light:0.70.0
 
 - 1.5.9 -- 2021-03-09
 
