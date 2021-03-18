@@ -1,0 +1,5 @@
+multipleFormEditor:
+    prefixes:
+        lts:
+            realform_identifier: Ling.Light_Kit_Admin_TaskScheduler.generated/{table}
+            kit_page: Ling.Light_Kit_Admin_TaskScheduler/generated/{table}_form
