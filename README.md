@@ -109,6 +109,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+- 1.5.12 -- 2021-03-18
+
+  - fix bmenu items not requiring admin rights
+  
 - 1.5.11 -- 2021-03-18
 
   - update planet to adapt Ling.Light_BMenu:2.0.0

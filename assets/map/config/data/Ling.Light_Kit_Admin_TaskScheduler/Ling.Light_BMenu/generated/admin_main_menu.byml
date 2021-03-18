@@ -13,7 +13,7 @@
                 plugin: Ling/Light_Kit_Admin_TaskScheduler
                 controller: Generated/LtsTaskScheduleController
             
-            _right: Ling.Light_Kit_Admin.user
+            _right: Ling.Light_Kit_Admin.admin
             children: []
         
     
