@@ -29,16 +29,3 @@ $kit_admin.methods_collection:
                         file: ${app_dir}/config/data/Ling.Light_Kit_Admin_TaskScheduler/Ling.Light_Kit_Admin/lka-options.generated.byml
                     
                 
-            
-        
-    
-
-$bmenu.methods_collection: 
-    - 
-        method: addDirectItemsByFileAndParentPath
-        args: 
-            menu_type: admin_main_menu
-            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_TaskScheduler/Ling.Light_BMenu/generated/kit_admin_task_scheduler.admin_mainmenu_1.byml
-            path: lka-admin
-        
-    
