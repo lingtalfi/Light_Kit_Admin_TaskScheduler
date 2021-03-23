@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31 -> 2021-03-18
+2020-07-31 -> 2021-03-23
 
 
 
@@ -109,6 +109,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+- 1.5.14 -- 2021-03-23
+
+  - adapt api to Ling.Light_Realist:2.0.15
+  
 - 1.5.13 -- 2021-03-18
 
   - fix service config using undesirable bmenu snippet
