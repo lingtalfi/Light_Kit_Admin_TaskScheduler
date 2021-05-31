@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31 -> 2021-03-23
+2020-07-31 -> 2021-05-31
 
 
 
@@ -108,6 +108,10 @@ $kit_admin.methods_collection:
 
 History Log
 =============
+
+- 1.5.15 -- 2021-05-31
+
+  - update api to work with Light_PlanetInstaller 2.0.0
 
 - 1.5.14 -- 2021-03-23
 
