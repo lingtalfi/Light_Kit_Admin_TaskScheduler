@@ -76,23 +76,7 @@ kit_admin_task_scheduler:
         setContainer: 
             container: @container()
         
-    
-
-# --------------------------------------
-# hooks
-# --------------------------------------
-$kit_admin.methods_collection: 
-    - 
-        method: registerPlugin
-        args: 
-            pluginName: Light_Kit_Admin_TaskScheduler
-            plugin: 
-                instance: Ling\Light_Kit_Admin_TaskScheduler\LightKitAdminPlugin\Generated\LightKitAdminTaskSchedulerLkaPlugin
-                methods: 
-                    setOptionsFile: 
-                        file: ${app_dir}/config/data/Ling.Light_Kit_Admin_TaskScheduler/Ling.Light_Kit_Admin/lka-options.generated.byml
-                    
-                
+      
     
 ```
 
@@ -101,6 +85,10 @@ $kit_admin.methods_collection:
 History Log
 =============
 
+- 1.5.18 -- 2021-06-17
+  
+    - checkpoint commit
+  
 - 1.5.17 -- 2021-06-17
   
     - switch to micro-permission open registration system

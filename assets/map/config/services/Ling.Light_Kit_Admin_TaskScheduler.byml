@@ -4,20 +4,3 @@ kit_admin_task_scheduler:
         setContainer: 
             container: @container()
         
-    
-
-# --------------------------------------
-# hooks
-# --------------------------------------
-$kit_admin.methods_collection:
-    - 
-        method: registerPlugin
-        args: 
-            pluginName: Light_Kit_Admin_TaskScheduler
-            plugin: 
-                instance: Ling\Light_Kit_Admin_TaskScheduler\LightKitAdminPlugin\Generated\LightKitAdminTaskSchedulerLkaPlugin
-                methods: 
-                    setOptionsFile: 
-                        file: ${app_dir}/config/data/Ling.Light_Kit_Admin_TaskScheduler/Ling.Light_Kit_Admin/lka-options.generated.byml
-                    
-                
