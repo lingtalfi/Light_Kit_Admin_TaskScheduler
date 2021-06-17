@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31 -> 2021-05-31
+2020-07-31 -> 2021-06-17
 
 
 
@@ -81,14 +81,6 @@ kit_admin_task_scheduler:
 # --------------------------------------
 # hooks
 # --------------------------------------
-$micro_permission.methods_collection: 
-    - 
-        method: registerMicroPermissionsByProfile
-        args: 
-            file: ${app_dir}/config/data/Ling.Light_Kit_Admin_TaskScheduler/Ling.Light_MicroPermission/kit_admin_task_scheduler.profile.generated.byml
-        
-    
-
 $kit_admin.methods_collection: 
     - 
         method: registerPlugin
@@ -108,6 +100,10 @@ $kit_admin.methods_collection:
 
 History Log
 =============
+
+- 1.5.17 -- 2021-06-17
+  
+    - switch to micro-permission open registration system
 
 - 1.5.16 -- 2021-05-31
 
