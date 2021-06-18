@@ -1,6 +1,6 @@
 Light_Kit_Admin_TaskScheduler
 ===========
-2020-07-31 -> 2021-06-17
+2020-07-31 -> 2021-06-18
 
 
 
@@ -85,6 +85,10 @@ kit_admin_task_scheduler:
 History Log
 =============
 
+- 1.5.19 -- 2021-06-18
+  
+    - update api to work with Ling.Light_Kit_Admin:0.13.0
+  
 - 1.5.18 -- 2021-06-17
   
     - checkpoint commit

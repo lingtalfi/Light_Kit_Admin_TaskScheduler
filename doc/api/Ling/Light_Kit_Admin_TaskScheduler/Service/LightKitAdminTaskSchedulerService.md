@@ -4,7 +4,7 @@
 
 The LightKitAdminTaskSchedulerService class
 ================
-2020-07-31 --> 2021-06-17
+2020-07-31 --> 2021-06-18
 
 
 
